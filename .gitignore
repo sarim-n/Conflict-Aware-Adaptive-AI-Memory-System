@@ -1,0 +1,30 @@
+# Environment variables
+.env
+.env*.local
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python byte-code & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and FAISS indexes
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.index
+*.sqlite3
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
